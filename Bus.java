@@ -1,4 +1,4 @@
-package busresv;
+package BusReservation;
 
 public class Bus {
 	
@@ -31,10 +31,6 @@ public class Bus {
 	public void setCapacity(int cap) {       // Mutator 
 		capacity = cap;
 		
-	}
-	
-	public void displayBusInfo() {
-		System.out.println("Bus NO:" + busNo + " AC:" + AC + " Capacity is:" + capacity);
 	}
 }
 
